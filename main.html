@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  	<script>
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+          $('#secreto').fadeOut();
+        } else {
+          $('#secreto').fadeIn().delay(250);
+        }
+      });
+    });
+  	</script>
+	<title>DELEGADO</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#candidato">Candidato</a></li>
+				<li><a href="#bienvenida">Inicio</a></li>
+				<li><a href="#sobre_mi">Sobre mí</a></li>
+				<li><a href="#proyectos">Proyectos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="candidato">
+			<h1>Candidato</h1>
+			<p>El candidato Mykola Matkivskyy se presenta para el puesto de delgado del grupo de Doble grado de Ingeniería informática y dirección y administración de empresas para el curso 2023/24 con el fin de mejorar la experiencia académica de cada uno de sus compañeros y facilitar ayuda de cualquier tipo.</p>
+		</section>
+		<section id="bienvenida">
+			<h1>Inicio</h1>
+			<p>¡Bienvenido a mi presentación en línea! Me complace presentarles mi trabajo y compartir mi pasión por la creatividad y el diseño.</p>
+			<p>Aquí encontrará una muestra de mis proyectos más recientes, así como algunos de mis favoritos personales. Me encanta explorar nuevas ideas y conceptos.</p>
+			<p>Espero que disfrute explorando mi trabajo y que encuentre inspiración para sus propios proyectos. Si desea colaborar conmigo en el futuro, no dude en ponerse en contacto conmigo. ¡Gracias por visitar mi portafolio!</p>
+		</section>
+		<section id="sobre_mi">
+			<h2>Sobre mí</h2>
+			<p>¡Hola! Mi nombre es Mykola Matkivskyy y me complace darle la bienvenida a mi presentación en línea. Soy un apasionado de la programación, la grabación y edición de videos, así como de la economía e inversiones.</p>
+			<p>En cuanto a la programación, disfruto de la resolución de problemas y la creación de soluciones innovadoras. Me gusta trabajar con lenguajes de programación como Python y siempre busco la manera de aplicar mis habilidades en proyectos emocionantes.</p>
+			<p>La grabación y edición de videos también es una de mis pasiones. Me encanta capturar momentos únicos e inolvidables, y transformarlos en experiencias visuales atractivas e impactantes. Me gusta experimentar con diferentes estilos y técnicas, y siempre estoy buscando aprender y mejorar mis habilidades.</p>
+			<p>Además de mi amor por la tecnología, también me apasiona la economía y las inversiones. Me interesa el mundo de las finanzas y cómo se relaciona con el mundo empresarial. Disfruto investigando y analizando diferentes mercados e inversiones para ayudar a mis clientes a tomar decisiones informadas.</p>
+			<p>En mi portafolio, encontrarás una muestra de mis proyectos más recientes y algunos de mis favoritos personales. Si estás interesado en colaborar conmigo, por favor no dudes en ponerte en contacto conmigo. ¡Gracias por visitar mi portafolio!</p>
+		</section>
+		<section id="proyectos">
+			<h2>Proyectos</h2>
+			<ul>
+				<li>
+					<a href="programacion.html">Programacion</a>
+					<p>Soy un programador apasionado y talentoso con un enfoque especial en el lenguaje de programación Python. Me gusta explorar proyectos emocionantes relacionados con la inteligencia artificial y siempre estoy buscando nuevas formas de mejorar mis habilidades y aplicarlas en proyectos desafiantes y emocionantes.</p>
+				</li>
+				<li>
+					<a href="edicion_de_video.html">Edicion de videos</a>
+					<p>La edición de videos es mi pasión y un pasatiempo que disfruto mucho. He estado dedicando tiempo y esfuerzo a perfeccionar mis habilidades y a trabajar en proyectos interesantes. Utilizo Davinci Resolve como mi herramienta principal, lo que me permite crear videos visualmente impresionantes.</p>
+				</li>
+				<li>
+					<a href="economia.html">Economía</a>
+					<p>La macroeconomía, las inversiones y el mundo empresarial son temas que me apasionan profundamente. Siempre me ha interesado entender cómo funcionan las economías y cómo las empresas e individuos interactúan dentro de ellas.Me gusta analizar tendencias y oportunidades, y estoy convencido de que puedo hacer una contribución significativa en cualquier equipo que valore la innovación y el análisis riguroso.</p>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>Derechos reservados © 2023</p>
+	</footer>
+	<img src="img/secret.png" alt="edicion_img" id="secreto">
+</body>
+</html>
